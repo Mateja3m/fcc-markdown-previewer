@@ -5,8 +5,8 @@ marked.setOptions({
     breaks: true
   });
   
-  
 const renderer = new marked.Renderer();
+
 const Preview = ({ markdown}) => {
     return (
       <div
