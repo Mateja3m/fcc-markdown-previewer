@@ -27,10 +27,10 @@ And feel free to go crazy ~~crossing stuff out~~.
 There's also [links](https://www.freecodecamp.org), and
 > Block Quotes!
 
-- And of course there are lists.
+- And of course, there are lists.
   - Some are bulleted.
      - With different indentation levels.
-        - That look like this.
+        - That looks like this.
 
 
 1. And there are numbered lists too.
@@ -53,7 +53,7 @@ export default function App() {
         className="textarea"
         rows="7"
       ></textarea>
-      <h2 className="mt-3">Markdown Output</h2>
+      <h2 className="mt-3 p-4">Markdown Output</h2>
       <Preview markdown={text} />
     </div>
   );
